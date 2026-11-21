@@ -1,8 +1,14 @@
-# 根仓库仅跟踪工作区总览与脚本；其余目录由各自独立仓库管理
+# 根仓库仅跟踪工作区总览、索引文档与脚本；其余目录由各自独立仓库管理
 /*
 !/.gitignore
 !/README.md
 !/scripts/
+!/projects/
+/projects/*
+!/projects/README.md
+!/references/
+/references/*
+!/references/README.md
 
 # 原规则（对嵌套工程仓库同样适用）
 .DS_Store
